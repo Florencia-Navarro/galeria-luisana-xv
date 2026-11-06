@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-verde-ingles: #263F35;
+  --color-oliva: #4b5136;
+  --color-salvia: #8a8f73;
+  --color-marron: #6b4426;
+  --color-marfil: #e8dcc5;
+  --color-beige: #cbb9a3;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-marfil);
+  font-family: Georgia, serif;
+}
